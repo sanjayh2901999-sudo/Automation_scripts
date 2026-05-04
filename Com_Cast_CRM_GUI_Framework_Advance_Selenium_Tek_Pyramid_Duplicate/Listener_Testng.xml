@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="Com.Com_Cast.CRM.ListenerUtility.ListenerImplementationClass"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Listner_TestNg.Invoice_Test2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

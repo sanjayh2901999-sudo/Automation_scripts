@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test  name="Test-1">
+    <classes>
+      <class name="Com.Crm.Comcast.OrganisationTest_Parallel_Distribution_Execution_Testng.Create_Organisation_Test_TestNg"/>
+    </classes>
+    </test>
+    <test  name="Test-2">
+    <classes>
+      <class name="Com.Crm.Comcast.ContactTest_Parallel_Distribution_Execution_Testng.Create_Contact_Test_TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

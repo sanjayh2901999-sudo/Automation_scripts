@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<groups>
+<run>
+<include name ="regressionTest"/>
+</run>
+</groups>
+<test name="Test">
+    <classes>
+      <class name="Com.Crm.Comcast.ContactTest_GroupExecution_Testng.Create_Contact_Test_TestNg"/>
+      <class name="Com.Crm.Comcast.OrganisationTest_GroupExecution_Testng.Create_Organisation_Test_TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

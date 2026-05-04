@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="2" parallel="tests" name="TestRunner-Firefox(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="Com.Crm.Comcast.ContactTest_ParallelExecution_CrossBrowser_Testng.Create_Contact_Test_TestNg">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createContactWithSupportDateTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- Com.Crm.Comcast.ContactTest_ParallelExecution_CrossBrowser_Testng.Create_Contact_Test_TestNg -->
+    </classes>
+  </test> <!-- TestRunner-Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Com.Crm.Comcast.ContactTest_GroupExecution_Testng.Create_Contact_Test_TestNg">
+      <methods>
+      <include name ="createContactWithOrgTest"/>
+      </methods>
+      </class>
+      <class name="Com.Crm.Comcast.OrganisationTest_GroupExecution_Testng.Create_Organisation_Test_TestNg">
+      <methods>
+      <include name ="createOrgTest"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

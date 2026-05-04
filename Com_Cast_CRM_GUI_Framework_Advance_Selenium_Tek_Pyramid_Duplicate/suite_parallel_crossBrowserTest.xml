@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test name="TestRunner-Firefox">
+  <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="Com.Crm.Comcast.OrganisationTest_ParallelExecution_CrossBrowser_Testng.Create_Organisation_Test_TestNg"/>
+      <class name="Com.Crm.Comcast.ContactTest_ParallelExecution_CrossBrowser_Testng.Create_Contact_Test_TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestRunner-Chrome">
+  <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="Com.Crm.Comcast.OrganisationTest_ParallelExecution_CrossBrowser_Testng.Create_Organisation_Test_TestNg"/>
+      <class name="Com.Crm.Comcast.ContactTest_ParallelExecution_CrossBrowser_Testng.Create_Contact_Test_TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
