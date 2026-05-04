@@ -10,14 +10,19 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Home_Page_Object_Repository {
+public class Home_Page_Object_Repository
+{
 
     WebDriver driver;
 
-    public Home_Page_Object_Repository(WebDriver driver) {
+    public Home_Page_Object_Repository(WebDriver driver)
+    {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    @FindBy(linkText = "Products")
+    private WebElement productLink;
 
     @FindBy(linkText = "Organizations")
     private WebElement orgLink;
@@ -39,6 +44,10 @@ public class Home_Page_Object_Repository {
 
     // getters
 
+    public WebElement getProductlink() 
+    {
+        return productLink;
+    }
     public WebElement getOrgLink() 
     {
         return orgLink;
